@@ -4,6 +4,7 @@ if (process.env.NODE_ENV !== "production") {
 
 const express = require("express");
 require("./mongo");
+const cors = require("cors");
 const Product = require("./models/Product");
 const { Category } = require("./models/Category");
 const validateNewProduct = require("./middlewares/validateNewProduct");
@@ -12,6 +13,7 @@ const errorHandler = require("./middlewares/errorHandler");
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
