@@ -1,6 +1,6 @@
 # API de AngularStore
 
-API utilizada en [AngularStore](https://github.com/GastonPerez97/taller-web-2-proyecto).
+API REST utilizada en [AngularStore](https://github.com/GastonPerez97/taller-web-2-proyecto).
 
 ## Tecnologías utilizadas:
 - NodeJS.
