@@ -12,14 +12,14 @@
   "author": "Gaston Perez",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "7.31.0",
-    "nodemon": "2.0.12"
+    "eslint": "8.26.0",
+    "nodemon": "2.0.20"
   },
   "dependencies": {
     "cors": "2.8.5",
-    "dotenv": "10.0.0",
-    "express": "4.17.1",
-    "joi": "17.4.1",
-    "mongoose": "5.13.3"
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "joi": "17.7.0",
+    "mongoose": "6.7.1"
   }
 }
